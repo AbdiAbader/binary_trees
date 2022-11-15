@@ -13,7 +13,7 @@ if (parent == NULL)
 return (NULL);
 }
 new_node = binary_tree_node(parent, value);
-if(parent->left == NULL)
+if (parent->left == NULL)
 {
 parent->left = new_node;
 }
