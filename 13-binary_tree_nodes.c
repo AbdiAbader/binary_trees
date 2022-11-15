@@ -12,6 +12,6 @@ return (0);
 if (tree->left != NULL || tree->right != NULL)
 i++;
 i = i +  binary_tree_nodes(tree->left);
-i = i +  binary_tree_nodess(tree->right);
+i = i +  binary_tree_nodes(tree->right);
 return (i);
 }
