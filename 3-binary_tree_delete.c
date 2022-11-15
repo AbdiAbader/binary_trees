@@ -5,7 +5,6 @@
 */
 void binary_tree_delete(binary_tree_t *tree)
 {
-binary_tree_t *left, *right;
 if (tree == NULL)
 return;
 if (tree->left == NULL && tree->right == NULL)
