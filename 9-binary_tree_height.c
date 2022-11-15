@@ -13,5 +13,7 @@ if (tree->left != NULL)
 i++;
 if (tree->right != NULL)
 i++;
+binary_tree_height(tree->left);
+binary_tree_height(tree->right);
 return (i);
 }
